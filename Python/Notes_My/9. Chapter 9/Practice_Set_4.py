@@ -1,0 +1,6 @@
+f = open("Replaceword.txt",'r')
+text = f.read()
+f = open("Replaceword.txt",'w')
+text=text.replace("Donkey","******")
+f.write(text)
+f.close()

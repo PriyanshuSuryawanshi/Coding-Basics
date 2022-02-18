@@ -1,0 +1,5 @@
+a = input("Enter the value of a : ")
+b = input("Enter the value of b : ")
+a = int(a)
+b = int(b)
+print("Remainder of a Divided by b = ", a%b)

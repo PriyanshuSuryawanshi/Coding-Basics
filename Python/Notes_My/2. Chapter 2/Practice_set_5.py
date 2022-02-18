@@ -1,0 +1,5 @@
+a = input("Enter the value of a : ")
+b = input("Enter the value of b : ")
+a = int(a)
+b = int(b)
+print("Average of a and b = ", (a+b)/2)
