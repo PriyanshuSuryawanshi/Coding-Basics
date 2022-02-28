@@ -1,6 +1,7 @@
 #include <stdio.h>
 // Bubble Sort
-int main() {
+int main()
+{
  
     int num[5];
     printf("Enter 5 digits\n");
@@ -22,11 +23,10 @@ int main() {
             }
         }
     }
-
      printf("Ordered digits\n");
     for(int i=0;i<5;i++)
     {
-        printf("%d\n",num[i]);
+        printf("%d\t",num[i]);
     } 
 return 0;
 }

@@ -36,7 +36,7 @@ int main() {
         for(reverse=0;i!=0;i=i/10)
         {  
             rem=i%10;
-            reverse = reverse*10 + rem;
+            reverse = reverse + rem*rem*rem;
         }
         if(input==reverse)
         {
